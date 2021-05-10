@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from . import models
-from django.views import generic
+# TODO: Import generic views
 
 # Create your views here.
 def shelter_list(request):
