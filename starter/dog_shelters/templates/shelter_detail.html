@@ -12,9 +12,8 @@ Shelter list
     {% for dog in shelter.dog_set.all %}
         <div>
             {# TODO: Add link to dogs #}
-            <a href="{% url 'dog_detail' dog.id %}">
-                {{dog.name}}
-            </a>
+
+
         </div>
     {% endfor %}
     </div>
